@@ -23,7 +23,7 @@
 - `helyezes`: A dal döntőbeli helyezése (szám) (1969-ben 4 dalt holtversenyben 1. helyezettnek hirdettek ki)
 - `pontszam`: A dal által elért döntőbeli pontszám (szám)
 
-**`verseny`** <small>(*ev, datum, varos, orszag, induloszam*)</small>
+**`versenyek`** <small>(*ev, datum, varos, orszag, induloszam*)</small>
 
 - `ev`: A verseny rendezésének éve (szám), kulcs
 - `datum`: A verseny döntőjének dátuma (dátum)
@@ -31,7 +31,7 @@
 - `orszag`: A versenyt rendező ország (szöveg)
 - `induloszam`: A versenybe benevezett dalok száma (szám)
 
-**`nyelv`** <small>(*id, orszag, nyelv*)</small>
+**`nyelvek`** <small>(*id, orszag, nyelv*)</small>
 
 - `id`: A nyelv azonosítója (számláló), kulcs
 - `orszag`: Az ország neve, ahol az adott nyelv hivatalos nyelv (szöveg). Néhány országnak több hivatalos nyelve is van.
