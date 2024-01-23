@@ -1,7 +1,7 @@
 ﻿DROP DATABASE IF EXISTS eurovizio;
 
-CREATE DATABASE eurovizio;
-DEFAULT CHARACTER SET utf8;
+CREATE DATABASE eurovizio
+CHARACTER SET utf8
 COLLATE utf8_hungarian_ci;
 
 USE eurovizio;
@@ -20,7 +20,24 @@ CREATE TABLE dalok (
     PRIMARY KEY (id)
 );
 
-INSERT INTO dalok VALUES
+CREATE TABLE versenyek (
+  id int,
+  datum date,
+  varos varchar(255),
+  orszag varchar(255),
+  induloszam int(1),
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE nyelvek (
+	id int NOT NULL AUTO_INCREMENT UNIQUE,
+	orszag varchar(255),
+	nyelv varchar(255),	
+  PRIMARY KEY (id)
+);
+
+INSERT INTO dalok (ev, sorrend, orszag, nyelv, eloado, eredeti, magyar, helyezes, pontszam)
+VALUES
 (1985,14,"Egyesült Királyság","angol","Vikki","Love Is","A szerelem...",4,100),
 (1988,8,"Izrael","héber","Yardena Arazi","Ben Adam","Emberi lény",7,85),
 (1972,13,"Jugoszlávia","szerbhorvát","Tereza Kesovija","Muzika i ti","A zene és Te",9,87),
@@ -1173,16 +1190,8 @@ INSERT INTO dalok VALUES
 (1980,1,"Ausztria","német","Blue Danube","Du bist Musik","Te vagy a zene",8,64),
 (1983,9,"Finnország","finn","Ami Aspelund","Fantasiaa","Fantázia",11,41);
 
-CREATE TABLE versenyek (
-  id int,
-  datum date,
-  varos varchar(255),
-  orszag varchar(255),
-  induloszam int(1),
-  PRIMARY KEY (id)
-);
-
-INSERT INTO verseny VALUES
+INSERT INTO versenyek (id, datum, varos, orszag, induloszam)
+VALUES
 (1991,"1991-05-04","Róma","Olaszország",22),
 (2000,"2000-05-13","Stockholm","Svédország",24),
 (1974,"1974-04-06","Brighton","Egyesült királyság",17),
@@ -1241,14 +1250,8 @@ INSERT INTO verseny VALUES
 (1968,"1968-04-06","London","Egyesült királyság",17),
 (1967,"1967-04-08","Bécs","Ausztria",17);
 
-CREATE TABLE nyelvek (
-	id int NOT NULL AUTO_INCREMENT UNIQUE,
-	orszag varchar(255),
-	nyelv varchar(255),	
-        PRIMARY KEY (id)
-);
-
-INSERT INTO nyelv VALUES
+INSERT INTO nyelvek (id, orszag, nyelv)
+VALUES
 (null,"Luxemburg","luxemburgi"),
 (null,"Jugoszlávia","szerbhorvát"),
 (null,"Svájc","francia"),
