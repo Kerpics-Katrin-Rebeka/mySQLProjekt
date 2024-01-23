@@ -1,8 +1,8 @@
 ## 3. Eurovíziós Dalfesztivál
 
-<p style="text-indent: 20px;">Az Eurovíziós Dalfesztivált 1956 óta minden évben megrendezik. Az első, lényegében kísérleti évet követően minden jelentkező ország pontosan egy dalt nevezhetett a versenyre. A jelentkezők számának növekedése miatt az utóbbi években két elődöntőt követően alakul ki a döntő mezőnye.</p>
+Az Eurovíziós Dalfesztivált 1956 óta minden évben megrendezik. Az első, lényegében kísérleti évet követően minden jelentkező ország pontosan egy dalt nevezhetett a versenyre. A jelentkezők számának növekedése miatt az utóbbi években két elődöntőt követően alakul ki a döntő mezőnye.
 
-#### 1. Készítsen adatbázist eurovizio néven!
+**1. Készítsen adatbázist eurovizio néven!**
 
 - A mellékelt három – tabulátorokkal tagolt, UTF-8 kódolású – szöveges állományt (`dal.txt`, `verseny.txt`, `nyelv.txt`) importálja az adatbázisba a fájlnévvel azonos néven (`dal`, `verseny`, `nyelv`)! Az állomány első sora a mezőneveket tartalmazza.
 - A létrehozás során állítsa be a megfelelő típusokat, alakítsa ki a kulcsokat és vegye fel a hiányzó mezőket!
@@ -37,5 +37,45 @@
 - `orszag`: Az ország neve, ahol az adott nyelv hivatalos nyelv (szöveg). Néhány országnak több hivatalos nyelve is van.
 - `nyelv`: A nyelv megnevezése (szöveg)
   
-<p style="text-indent: 20px;">A következő feladatok megoldásánál a lekérdezéseket és jelentést a zárójelben olvasható
-néven mentse! Ügyeljen arra, hogy a megoldásban pontosan a kívánt mezők szerepeljenek! </p>
+A következő feladatok megoldásánál a lekérdezéseket és jelentést a zárójelben olvasható
+néven mentse! Ügyeljen arra, hogy a megoldásban pontosan a kívánt mezők szerepeljenek!
+<br>
+
+2. Készítsen lekérdezést, amely időrendben listázza azon dalok eredeti címét, amelyet
+a rendező ország nevezett be! Jelenítse meg az évet, a nevező országot és a dal eredeti
+címét! (***2rendezo***)
+<br>
+
+3. A döntő előtt sorsolással állapítják meg a bemutatás sorrendjét. Egyes előadók nagy
+jelentőséget tulajdonítanak ennek, mert az eddigiekben voltak sorszámok, amelyekkel
+gyakran nyertek, másokkal pedig soha. Készítsen lekérdezést, amely megadja azokat
+a bemutatási sorszámokat, amelyekkel legalább ötször nyertek a verseny történetében!
+(***3sorszam***)
+<br>
+
+4. A Benelux (Belgium, Hollandia, Luxemburg) államok mindegyike szerepelt már
+1957-ben is, azonban voltak olyan évek, amikor egyikük sem nevezett. Készítsen
+lekérdezést, amely megadja, hogy mely években indult mindhárom ország! (***4benelux***)
+<br>
+
+5. Aránylag hamar kialakult az az íratlan szabály, hogy a nyertes dalt nevező országban
+rendezik a következő évi versenyt. Készítsen lekérdezést, amely megadja, hogy mely
+győztes ország nem volt rendező a győzelmét követő évben! Jelenítse meg az ország nevét
+és a győzelem évét! (***5nemrendezett***)
+<br>
+
+6. Az indulók angolul vagy a nevező ország hivatalos nyelvén énekelhetnek. Készítsen
+lekérdezéssel listát azon egynyelvű dalokról, amelyeknél ezt a szabályt nem tartották be!
+A listában a nevező ország, a dal nyelve és a dal eredeti címe jelenjen meg!
+(***6nemhivatalos***)
+<br>
+
+7. A verseny időpontja annak több mint 50 éves története alatt gyakran „vándorolt” a tavaszi
+hónapok között, azonban sok éve májusban rendezik. Készítsen lekérdezést, amely
+megadja, hogy melyik évtől rendezik mindig májusban a verseny döntőjét! Csak az évet
+adja meg! (***7majus***)
+<br>
+
+8. Készítsen jelentést a dobogós helyezést elért dalokról! A dalok évek szerinti csoportosításban, a sorok és oszlopok sorrendje, valamint a tartalom szempontjából az alábbi mintának
+megfelelően jelenjenek meg! A jelentést egyező nevű lekérdezéssel vagy ideiglenes
+táblával készítse elő! (***8dobogos***) 
