@@ -8,7 +8,7 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 
 #### Táblák:
 
-**`urhajosok`** <small>(*id, nev, orszag, nem, szulev, urido*)</small>
+**1. `urhajosok` <small>(*id, nev, orszag, nem, szulev, urido*)</small>**
 |Név|Típus|Leírás|Kulcs|
 |---|---|---|---|
 | id | int | Az űrhajós azonosítója (szám), ez a kulcs |✓|
@@ -19,7 +19,7 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 | urido | string | Az űrhajós által az űrben töltött összes idő (szöveg). Az első &karaktere minden esetben a T betű, utána 3 karakter a napokat, 2 az órákat, 2 a perceket jelöli. A számokat kettőspontválasztja el egymástól. ||
 
 
-**`repulesek`** <small>(*urhajosid, kuldetesid*)</small>
+**2. `repulesek` <small>(*urhajosid, kuldetesid*)</small>**
 
 
 |Név|Típus|Leírás|Kulcs|
@@ -27,7 +27,7 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 | urhajosid | int | Az űrhajós azonosítója (szám), ez a kulcs |✓|
 | kuldetesid | int | A küldetés azonosítója (szám), ez a kulcs  |✓|
 
-**`kuldetesek`** <small>(*id, megnevezes, kezdet, veg*)</small>
+**3 .`kuldetesek` <small>(*id, megnevezes, kezdet, veg*)</small>**
 
 |Név|Típus|Leírás|Kulcs|
 |---|---|---|---|
@@ -35,17 +35,19 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 | megnevezes | string | A küldetés hivatalos neve (szöveg) ||
 | kezdet | date | A küldetés kezdetének dátuma (dátum) ||
 | veg | date | A küldetés befejezésének dátuma (dátum). ||
+
+![Kép a kapcsolatokról](diagram.png)
   
 A következő feladatok megoldásánál a lekérdezéseket és a jelentést a zárójelben olvasható
 néven mentse! Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek,
 felesleges mezőt ne jelenítsen meg!
 <br>
 
-2. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
+1. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
 és mennyit! Jelenítse meg az űrhajós nevét és az urido mező értékét! (***2legtobbido*)** 
 <br>
 
-3. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
+1. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
 lekérdezést, amely megadja ezen küldetések megnevezését és azt, hogy milyen hosszúak
 voltak, azaz hány napig tartottak! (***3szilveszter***) 
 
