@@ -234,7 +234,7 @@ VALUES
 ( 200,"Joseph M. Acaba","USA","F",1967,"T305:00:35"),
 ( 201,"Maurizio Cheli","ITA","F",1959,"T015:17:40"),
 ( 202,"Jean-Loup ChrĂ©tien","FRA","F",1938,"T044:11:18"),
-( 203,"Charles Simonyi","HUN","F",1948,"T026:14:26"),
+( 203,"Simonyi Károly","HUN","F",1948,"T026:14:26"),
 ( 204,"Anatoly Artsebarsky","URS","F",1956,"T144:15:21"),
 ( 205,"David Griggs","USA","F",1939,"T006:23:55"),
 ( 206,"Charles Bolden","USA","F",1946,"T028:08:38"),
@@ -591,7 +591,8 @@ VALUES
 ( 558,"Susan Helms","USA","N",1958,"T210:23:07"),
 ( 559,"Robert J. Cenker","USA","F",1948,"T006:02:03"),
 ( 560,"James Halsell","USA","F",1956,"T052:10:32"),
-( 561,"Alexander Poleshchuk","RUS","F",1953,"T179:00:43");
+( 561,"Alexander Poleshchuk","RUS","F",1953,"T179:00:43"),
+( 562,"Nits László","HUN","F",1968,"T000:00:53);
 
 INSERT INTO kuldetesek (id, megnevezes, kezdet, veg)
 VALUES

@@ -1,16 +1,28 @@
 ﻿-- 2. feladat:
+INSERT INTO kuldetesek (id, megnevezes, kezdet, veg)
+VALUES (323, 'SpaceX Crew-5', '2022-10-06', '2023-03-11');
+
+-- 3. feladat:
+UPDATE urhajosok SET nev = 'Charles Simonyi'
+WHERE nev = 'Simonyi Károly';
+
+-- 4. feladat:
+DELETE FROM urhajosok
+WHERE nev = 'Nits László';
+
+-- 5. feladat:
 SELECT nev, urido
 FROM urhajosok
 WHERE nem = 'N'
 ORDER BY urido DESC
 LIMIT 1;
 
--- 3. feladat:
+-- 6. feladat:
 SELECT megnevezes, DATEDIFF(veg, kezdet) AS hossz
 FROM kuldetesek
 WHERE YEAR(kezdet) != YEAR(veg);
 
--- 4. feladat: 
+-- 7. feladat: 
 SELECT 
     urhajosok.nev AS urhajos_neve,
     MIN(YEAR(kuldetesek.kezdet)) - urhajosok.szulev AS kezdet_kor,
@@ -26,17 +38,17 @@ HAVING COUNT(repulesek.kuldetesId) > 1
 ORDER BY urhajosok.nev;
 
 
--- 5. feladat:
+-- 8. feladat:
 SELECT orszag, COUNT(id) AS urhajosok_szama
 FROM urhajosok
 GROUP BY orszag
 ORDER BY urhajosok_szama DESC;
 
--- 6. feladat:
+-- 9. feladat:
 SELECT COUNT(DISTINCT orszag) AS orszagszam
 FROM urhajosok;
 
--- 7. feladat:
+-- 10. feladat:
 SELECT DISTINCT k.megnevezes AS kuldetes_neve
 FROM kuldetesek k
 JOIN repulesek r ON k.id = r.kuldetesId
@@ -50,7 +62,7 @@ WHERE u.nem = 'F' AND EXISTS (
 ORDER BY kuldetes_neve ASC;
 
 
--- 8. feladat:
+-- 11. feladat:
 SELECT k.megnevezes, k.kezdet
 FROM kuldetesek k
 WHERE YEAR(k.kezdet) BETWEEN 1991 AND 2000
