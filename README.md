@@ -43,35 +43,44 @@ néven mentse! Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők
 felesleges mezőt ne jelenítsen meg!
 <br>
 
-2. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
+2. Illessze be a kuldetesek táblába a 2022. október 6-án kezdődött és 2023. március 11-én véget érő SpaceX Crew-5 expedíciót 323-as azonosítóval!
+<br>
+
+3. Simonyi Károly hivatalos neve jelenleg Charles Simonyi. Javítsa ki az urhajosok táblában Simonyi Károly nevét Charles Simonyi-ra.
+<br>
+
+4. Az egyik táblába hiba folytán fel lett véve egy hibás rekord. Törölje ki a "Nits László" nevű személyt az urhajosok adattáblából!
+<br>
+
+5. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
 és mennyit! Jelenítse meg az űrhajós nevét és az urido mező értékét! 
 <br>
 
-3. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
+6. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
 lekérdezést, amely megadja ezen küldetések megnevezését és azt, hogy milyen hosszúak
 voltak, azaz hány napig tartottak! 
 
 <br>
 
-4. Készítsen lekérdezést, amelyik megadja, hogy a több űrrepülésen részt vevő űrhajósok hány
+7. Készítsen lekérdezést, amelyik megadja, hogy a több űrrepülésen részt vevő űrhajósok hány
 éves korukban kezdték az első és hány éves korukban az utolsó küldetésüket! Jelenítse meg
 az űrhajós nevét, és a két életkort!
 <br>
 
-5. Lekérdezés segítségével határozza meg, hogy az egyes országoknak hány űrhajósa szerepel
+8. Lekérdezés segítségével határozza meg, hogy az egyes országoknak hány űrhajósa szerepel
 az adatbázisban! Az országok azonosítóját és az adott ország űrhajósainak számát
 az űrhajósok száma szerint csökkenő sorrendben jelenítse meg!
 <br>
 
-6. Határozza meg, hogy hány ország képviseletében repültek az űrhajósok! Ehhez egészítse ki
+9. Határozza meg, hogy hány ország képviseletében repültek az űrhajósok! Ehhez egészítse ki
 az alábbi lekérdezést, úgy, hogy válaszoljon az előbbi kérdésre! A teljes lekérdezést mentse!
 <br>
 
-7. Készítsen lekérdezést, amelyben felsorolja azoknak a küldetéseknek a nevét, amelyben
+10. Készítsen lekérdezést, amelyben felsorolja azoknak a küldetéseknek a nevét, amelyben
 legénység tagjai között férfi és nő is volt!
 <br>
 
-8. Készítsen jelentést arról, hogy a 20. század utolsó évtizedében (1991-2000) megkezdett
+11. Készítsen jelentést arról, hogy a 20. század utolsó évtizedében (1991-2000) megkezdett
 küldetéseken milyen legénység vett részt! A listában a küldetés neve és kezdete kiemelve,
 azon belül a nevek ábécérendben jelenjenek meg! A jelentés készítését lekérdezéssel
 készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a cím és a címkék
