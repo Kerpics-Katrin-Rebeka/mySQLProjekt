@@ -49,14 +49,14 @@ felesleges mezőt ne jelenítsen meg!
 3. Simonyi Károly hivatalos neve jelenleg Charles Simonyi. Javítsa ki az urhajosok táblában Simonyi Károly nevét Charles Simonyi-ra.
 <br>
 
-5. Az egyik táblába hiba folytán fel lett véve egy hibás rekord. Törölje ki a "Nits László" nevű személyt az urhajosok adattáblából!
+4. Az egyik táblába hiba folytán fel lett véve egy hibás rekord. Törölje ki a "Nits László" nevű személyt az urhajosok adattáblából!
 <br>
 
-7. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
+5. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
 és mennyit! Jelenítse meg az űrhajós nevét és az urido mező értékét! 
 <br>
 
-8. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
+6. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
 lekérdezést, amely megadja ezen küldetések megnevezését és azt, hogy milyen hosszúak
 voltak, azaz hány napig tartottak! 
 
