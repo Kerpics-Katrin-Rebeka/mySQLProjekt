@@ -43,11 +43,24 @@ néven mentse! Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők
 felesleges mezőt ne jelenítsen meg!
 <br>
 
-5. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
+2. Illessze be a kuldetesek táblába a 2022. október 6-án kezdődött és
+2023. március 11-én véget érő SpaceX Crew-5 expedíciót 323-as azonosítóval!
+(323, SpaceX Crew-5, 2022.10.06, 2023.03.11)
+<br>
+
+3. Simonyi Károly hivatalos neve jelenleg Charles Simonyi. Javítsa ki az urhajosok
+ táblában Simonyi Károly nevét Charles Simonyi-ra.
+<br>
+
+5. Az egyik táblába hiba folytán fel lett véve egy hibás rekord. Törölje ki a "Nits
+László" nevű személyt az urhajosok adattáblából!
+<br>
+
+7. Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
 és mennyit! Jelenítse meg az űrhajós nevét és az urido mező értékét! 
 <br>
 
-6. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
+8. Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
 lekérdezést, amely megadja ezen küldetések megnevezését és azt, hogy milyen hosszúak
 voltak, azaz hány napig tartottak! 
 
