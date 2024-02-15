@@ -38,8 +38,7 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 
 ![Kép a kapcsolatokról](diagram.png)
   
-A következő feladatok megoldásánál a lekérdezéseket és a jelentést a zárójelben olvasható
-néven mentse! Ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek,
+A következő feladatok megoldásánál ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek,
 felesleges mezőt ne jelenítsen meg!
 <br>
 
@@ -80,7 +79,7 @@ az alábbi lekérdezést, úgy, hogy válaszoljon az előbbi kérdésre! A telje
 legénység tagjai között férfi és nő is volt!
 <br>
 
-11. Készítsen jelentést arról, hogy a 20. század utolsó évtizedében (1991-2000) megkezdett
+11. Készítsen lekérdezést arról, hogy a 20. század utolsó évtizedében (1991-2000) megkezdett
 küldetéseken milyen legénység vett részt! A listában a küldetés neve és kezdete kiemelve,
 azon belül a nevek ábécérendben jelenjenek meg! A jelentés készítését lekérdezéssel
 készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a cím és a címkék
