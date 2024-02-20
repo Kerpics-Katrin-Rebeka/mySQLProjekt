@@ -1,4 +1,4 @@
-## 3. Űrhajózás 
+# 3. Űrhajózás 
 
 A múlt század második felében az ember meghódította a világűrt is. A legtöbb ember ismeri Gagarin, Armstrong és Farkas Bertalan nevét. Természetesen rajtuk kívül is sokan jártak az űrben. Az adatbázis az adatgyűjtéskor már befejezett küldetések és az űrhajósok adatait tartalmazza.
 
@@ -43,26 +43,26 @@ A következő feladatok megoldásánál ügyeljen arra, hogy a lekérdezésben p
 felesleges mezőt ne jelenítsen meg!
 <br>
 
-### 2. feladat
+## 2. feladat
 
 Illessze be a kuldetesek táblába a 2022. október 6-án kezdődött és 2023. március 11-én véget érő SpaceX Crew-5 expedíciót 323-as azonosítóval!
 
-### 3. feladat
+## 3. feladat
 
 Simonyi Károly hivatalos neve jelenleg Charles Simonyi. Javítsa ki az urhajosok táblában Simonyi Károly nevét Charles Simonyi-ra.
 
-### 4. feladat
+## 4. feladat
 
 Az egyik táblába hiba folytán fel lett véve egy hibás rekord. Törölje ki a "Nits László" nevű személyt az urhajosok adattáblából!
 
-### 5. feladat
+## 5. feladat
 
 Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
 és mennyit! Jelenítse meg az űrhajós nevét és az urido mező értékét! 
 
 ![5. feladat](5.feladat.png)
 
-### 6. feladat
+## 6. feladat
 
 Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntötték. Készítsen
 lekérdezést, amely megadja ezen küldetések megnevezését és azt, hogy milyen hosszúak
@@ -70,7 +70,7 @@ voltak, azaz hány napig tartottak!
 
 ![6. feladat](6.feladat.png)
 
-### 7. feladat
+## 7. feladat
 
 Készítsen lekérdezést, amelyik megadja, hogy a több űrrepülésen részt vevő űrhajósok hány
 éves korukban kezdték az első és hány éves korukban az utolsó küldetésüket! Jelenítse meg
@@ -78,7 +78,7 @@ az űrhajós nevét, és a két életkort!
 
 ![7. feladat](7.feladat.png)
 
-### 8. feladat
+## 8. feladat
 
 Lekérdezés segítségével határozza meg, hogy az egyes országoknak hány űrhajósa szerepel
 az adatbázisban! Az országok azonosítóját és az adott ország űrhajósainak számát
@@ -86,21 +86,22 @@ az űrhajósok száma szerint csökkenő sorrendben jelenítse meg!
 
 ![8. feladat](8.feladat.png)
 
-### 9. feladat
+## 9. feladat
+
 
 Határozza meg, hogy hány ország képviseletében repültek az űrhajósok! Ehhez egészítse ki
 az alábbi lekérdezést, úgy, hogy válaszoljon az előbbi kérdésre! A teljes lekérdezést mentse!
 
 ![9. feladat](9.feladat.png)
 
-### 10. feladat
+## 10. feladat
 
 Készítsen lekérdezést, amelyben felsorolja azoknak a küldetéseknek a nevét, amelyben
 legénység tagjai között férfi és nő is volt!
 
 ![10. feladat](10.feladat.png)
 
-### 11. feladat
+## 11. feladat
 
 Készítsen lekérdezést arról, hogy a 20. század utolsó évtizedében (1991-2000) megkezdett
 küldetéseken milyen legénység vett részt! A listában a küldetés neve és kezdete kiemelve,
@@ -109,4 +110,3 @@ készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét
 megjelenítését vegye figyelembe! A jelentés formázásában a mintától eltérhet. 
 
 ![11. feladat](11.feladat.png)
-
