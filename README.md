@@ -37,7 +37,7 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 | kezdet | date | A küldetés kezdetének dátuma (dátum). |||
 | veg | date | A küldetés befejezésének dátuma (dátum). |||
 
-![Kép a kapcsolatokról](diagram.png)
+![Kép a kapcsolatokról](Images/diagram.png)
   
 A következő feladatok megoldásánál ügyeljen arra, hogy a lekérdezésben pontosan a kívánt mezők szerepeljenek,
 felesleges mezőt ne jelenítsen meg!
@@ -60,7 +60,7 @@ Az egyik táblába hiba folytán fel lett véve egy hibás rekord. Törölje ki 
 Lekérdezés segítségével határozza meg, hogy a nők közül ki töltötte a legtöbb időt az űrben
 és mennyit! Jelenítse meg az űrhajós nevét és az urido mező értékét! 
 
-![5. feladat](5.feladat.png)
+![5. feladat](Images/5.feladat.png)
 
 ## 6. feladat
 
@@ -68,7 +68,7 @@ Előfordult, hogy egy küldetés résztvevői az újévet az űrben köszöntöt
 lekérdezést, amely megadja ezen küldetések megnevezését és azt, hogy milyen hosszúak
 voltak, azaz hány napig tartottak! 
 
-![6. feladat](6.feladat.png)
+![6. feladat](Images/6.feladat.png)
 
 ## 7. feladat
 
@@ -76,7 +76,7 @@ Készítsen lekérdezést, amelyik megadja, hogy a több űrrepülésen részt v
 éves korukban kezdték az első és hány éves korukban az utolsó küldetésüket! Jelenítse meg
 az űrhajós nevét, és a két életkort!
 
-![7. feladat](7.feladat.png)
+![7. feladat](Images/7.feladat.png)
 
 ## 8. feladat
 
@@ -84,7 +84,7 @@ Lekérdezés segítségével határozza meg, hogy az egyes országoknak hány ű
 az adatbázisban! Az országok azonosítóját és az adott ország űrhajósainak számát
 az űrhajósok száma szerint csökkenő sorrendben jelenítse meg!
 
-![8. feladat](8.feladat.png)
+![8. feladat](Images/8.feladat.png)
 
 ## 9. feladat
 
@@ -92,14 +92,14 @@ az űrhajósok száma szerint csökkenő sorrendben jelenítse meg!
 Határozza meg, hogy hány ország képviseletében repültek az űrhajósok! Ehhez egészítse ki
 az alábbi lekérdezést, úgy, hogy válaszoljon az előbbi kérdésre! A teljes lekérdezést mentse!
 
-![9. feladat](9.feladat.png)
+![9. feladat](Images/9.feladat.png)
 
 ## 10. feladat
 
 Készítsen lekérdezést, amelyben felsorolja azoknak a küldetéseknek a nevét, amelyben
 legénység tagjai között férfi és nő is volt!
 
-![10. feladat](10.feladat.png)
+![10. feladat](Images/10.feladat.png)
 
 ## 11. feladat
 
@@ -109,4 +109,4 @@ azon belül a nevek ábécérendben jelenjenek meg! A jelentés készítését l
 készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a cím és a címkék
 megjelenítését vegye figyelembe! A jelentés formázásában a mintától eltérhet. 
 
-![11. feladat](11.feladat.png)
+![11. feladat](Images/11.feladat.png)
