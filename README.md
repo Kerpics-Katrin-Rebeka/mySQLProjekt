@@ -4,7 +4,7 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 
 **1. Készítsen adatbázist eurovizio néven!**
 
-- Futassa az (`urhajo.sql`) állományt, az adatbázis elkészítéséhez, feltöltéséhez.
+- Futassa az (`urhajozas.sql`) állományt, az adatbázis elkészítéséhez, feltöltéséhez.
 - A feladatok megoldására elkészített SQL parancsokat a `Vezetéknév_Kersztnév_Osztály_űrhajozás.sql` állományba illessze be! A javítás során csak ennek az állománynak a tartalma lesz értékelve!
 
 #### Táblák:
