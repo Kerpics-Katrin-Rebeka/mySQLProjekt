@@ -17,3 +17,13 @@
 
 
 -- 8. feladat:
+
+
+-- 9. feladat:
+
+
+-- 10. feladat:
+
+
+-- 11. feladat:
+
