@@ -8,7 +8,7 @@ USE urhajozas;
 
 CREATE TABLE urhajosok (
     id int,
-    nev varchar(40),
+    nev varchar(255),
     orszag char(3),
     nem char(1),
     szulev int,
@@ -18,7 +18,7 @@ CREATE TABLE urhajosok (
 
 CREATE TABLE kuldetesek (
     id int NOT NULL,
-    megnevezes varchar(30),
+    megnevezes varchar(50),
     kezdet date,
     veg date,
     PRIMARY KEY (id)
@@ -30,6 +30,8 @@ CREATE TABLE repulesek (
     CONSTRAINT FK_repulesek_urhajosok FOREIGN KEY (urhajosId) REFERENCES urhajosok(id),
     CONSTRAINT FK_repulesek_kuldetesek FOREIGN KEY (kuldetesId) REFERENCES kuldetesek(id)
 );
+
+
 
 INSERT INTO urhajosok (id, nev, orszag, nem, szulev, urido)
 VALUES
@@ -592,7 +594,7 @@ VALUES
 ( 559,"Robert J. Cenker","USA","F",1948,"T006:02:03"),
 ( 560,"James Halsell","USA","F",1956,"T052:10:32"),
 ( 561,"Alexander Poleshchuk","RUS","F",1953,"T179:00:43"),
-( 562,"Nits László","HUN","F",1968,"T000:00:53);
+( 562,"Nits László","HUN","F",1968,"T000:00:53");
 
 INSERT INTO kuldetesek (id, megnevezes, kezdet, veg)
 VALUES
