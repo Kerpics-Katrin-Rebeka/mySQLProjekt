@@ -22,11 +22,32 @@ A múlt század második felében az ember meghódította a világűrt is. A leg
 
 **2. `repulesek` <small>(*urhajosid, kuldetesid*)</small>**
 
-
-|Név|Típus|Leírás|PK|FK|
-|---|---|---|---|---|
-| urhajosId | int | Az űrhajós azonosítója (szám), ez a kulcs. ||✓|
-| kuldetesId | int | A küldetés azonosítója (szám), ez a kulcs.  ||✓|
+<table>
+    <thead>
+        <tr>
+            <th>Név</th>
+            <th>Típus</th>
+            <th>Leírás</th>
+            <th>PK</th>
+            <th>FK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>urhajosId</td>
+            <td>int</td>
+            <td>Az űrhajós azonosítója (szám), ez a kulcs.</td>
+            <td rowspan="2">✓</td>
+            <td>✓</td>
+        </tr>
+        <tr>
+            <td>kuldetesId</td>
+            <td>int</td>
+            <td>A küldetés azonosítója (szám), ez a kulcs.</td>
+            <td>✓</td>
+        </tr>
+    </tbody>
+</table>
 
 **3 .`kuldetesek` <small>(*id, megnevezes, kezdet, veg*)</small>**
 
