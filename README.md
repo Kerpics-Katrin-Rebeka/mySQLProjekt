@@ -2,7 +2,7 @@
 
 A múlt század második felében az ember meghódította a világűrt is. A legtöbb ember ismeri Gagarin, Armstrong és Farkas Bertalan nevét. Természetesen rajtuk kívül is sokan jártak az űrben. Az adatbázis az adatgyűjtéskor már befejezett küldetések és az űrhajósok adatait tartalmazza.
 
-### 1. Készítsen adatbázist eurovizio néven
+### 1. Készítsen adatbázist urhajosok néven
 
 - Futassa az (`urhajozas.sql`) állományt, az adatbázis elkészítéséhez, feltöltéséhez.
 - A feladatok megoldására elkészített SQL parancsokat a `megoldások_urhajozas.sql` állományba illessze be a megfelelő feladatszám alá! A javítás során csak ennek az állománynak a tartalma lesz értékelve!
