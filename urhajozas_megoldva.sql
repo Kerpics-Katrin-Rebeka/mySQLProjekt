@@ -35,7 +35,6 @@ JOIN
     kuldetesek ON repulesek.kuldetesId = kuldetesek.id
 GROUP BY urhajosok.id
 HAVING COUNT(repulesek.kuldetesId) > 1
-ORDER BY urhajosok.nev;
 
 
 -- 8. feladat:
