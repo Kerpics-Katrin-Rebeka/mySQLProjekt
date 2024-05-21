@@ -59,10 +59,30 @@ WHERE u.nem = 'F' AND EXISTS (
     WHERE r2.kuldetesId = k.id AND u2.nem = 'N'
 )
 ORDER BY kuldetes_neve ASC;
+-- Alternatív megoldás:
+SELECT DISTINCT 
+  megnevezes
+FROM repulesek
+  INNER JOIN kuldetesek
+    ON repulesek.kuldetesId = kuldetesek.id
+  INNER JOIN urhajosok
+    ON repulesek.urhajosId = urhajosok.id
+WHERE nem = 'F' AND megnevezes IN 
+(SELECT DISTINCT
+  kuldetesek.megnevezes
+FROM repulesek
+  INNER JOIN kuldetesek
+    ON repulesek.kuldetesId = kuldetesek.id
+  INNER JOIN urhajosok
+    ON repulesek.urhajosId = urhajosok.id
+WHERE nem = 'N')
+ORDER BY megnevezes;
 
 
 -- 11. feladat:
-SELECT k.megnevezes, k.kezdet
-FROM kuldetesek k
-WHERE YEAR(k.kezdet) BETWEEN 1991 AND 2000
-ORDER BY k.kezdet, k.megnevezes;
+SELECT
+  kuldetesek.megnevezes,
+  kuldetesek.kezdet
+FROM kuldetesek
+WHERE YEAR(kezdet) BETWEEN 1991 AND 2000
+ORDER BY kezdet, megnevezes;
